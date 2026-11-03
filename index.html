@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Philisiwe Mncengwa: Information Systems graduate (cum laude) and aspiring software developer skilled in C#, ASP.NET, SQL and Java.">
+    <meta name="theme-color" content="#10101c">
+
+    <!-- Social sharing (LinkedIn / WhatsApp). Replace the URL and add images/og-image.jpg (1200x630) -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Philisiwe Mncengwa | Developer Portfolio">
+    <meta property="og:description" content="Information Systems graduate (cum laude) and aspiring software developer.">
+    <meta property="og:image" content="https://YOUR-SITE-URL/images/og-image.jpg">
+    <meta property="og:url" content="https://YOUR-SITE-URL/">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <title>Philisiwe Mncengwa | Developer Portfolio</title>
+
+    <!-- Favicon: an inline "P" so you don't need an extra file -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2310101c'/%3E%3Ctext x='32' y='44' font-size='36' font-family='Georgia,serif' font-weight='700' text-anchor='middle' fill='%23a78bfa'%3EP%3C/text%3E%3C/svg%3E">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.16.0/mapbox-gl.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main">
+            <a href="#home" class="logo" aria-label="Philisiwe Mncengwa, home">PM<span>.</span></a>
+
+            <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
+                <span></span><span></span><span></span>
+            </button>
+
+            <div class="nav-links" id="nav-links">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#journey">Journey</a>
+                <a href="#contact">Contact</a>
+                <a href="cv/Philisiwe-Mncengwa-CV.pdf" class="nav-cta nav-cta-mobile" download>Download CV</a>
+            </div>
+
+            <a href="cv/Philisiwe-Mncengwa-CV.pdf" class="nav-button" download>Download CV</a>
+        </nav>
+    </header>
+
+    <main id="main">
+
+        <!-- HERO -->
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">Information Systems graduate · Cum Laude</p>
+
+                <h1>
+                    Building ideas into
+                    <span>meaningful digital experiences.</span>
+                </h1>
+
+                <p class="hero-description">
+                    I'm Philisiwe Mncengwa, an Information Systems graduate
+                    looking for an entry-level software development role. I work
+                    in C#, ASP.NET, Java and SQL, and I'm ready to contribute to
+                    real projects while learning from experienced developers.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="primary-button">View my work</a>
+                    <a href="cv/Philisiwe-Mncengwa-CV.pdf" class="secondary-button" download>Download CV</a>
+                    <a href="#contact" class="secondary-button">Contact me</a>
+                </div>
+
+                <div class="hero-status">
+                    <span class="status-dot" aria-hidden="true"></span>
+                    Open to professional opportunities
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="profile-glow" aria-hidden="true"></div>
+                <div class="profile-frame">
+                    <img src="images/profile-image.jpeg" alt="Portrait of Philisiwe Mncengwa" class="profile-image" width="370" height="462">
+                </div>
+
+                <div class="floating-note">
+                    <strong>My approach</strong>
+                    <p>Curiosity. Creativity. Continuous growth.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ACHIEVEMENTS -->
+        <section class="achievement-strip container" aria-labelledby="foundation-title">
+            <h2 id="foundation-title" class="strip-title">Academic excellence, practical ambition</h2>
+
+            <div class="achievement-grid">
+                <div class="achievement-card">
+                    <span class="achievement-value" data-count="78" data-suffix="%">78%</span>
+                    <p>Final academic average</p>
+                </div>
+                <div class="achievement-card">
+                    <span class="achievement-value">Cum Laude</span>
+                    <p>BCom Information Systems, University of Fort Hare</p>
+                </div>
+                <div class="achievement-card">
+                    <span class="achievement-value">Top</span>
+                    <p>Information Systems class <!-- TODO: add the year or award, e.g. "Top of IS class, 2025" --></p>
+                </div>
+                <div class="achievement-card">
+                    <span class="achievement-value">2024–26</span>
+                    <p>Academic assistant and tutor</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section container" id="about">
+            <p class="eyebrow">About me</p>
+            <h2>Technology with <span>purpose.</span></h2>
+
+            <p class="section-description">
+                I studied Information Systems and enjoy understanding how
+                technology works and how it solves real problems. I'm looking
+                for a role in software development, systems development or
+                database work where I can apply what I know, learn industry
+                practice such as software lifecycles and team development,
+                and grow into a well-rounded developer.
+            </p>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="section container" id="skills">
+            <p class="eyebrow">Skills</p>
+            <h2>Tools I work <span>with.</span></h2>
+
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Programming</h3>
+                    <div class="chips"><span>C#</span><span>Java</span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>Web development</h3>
+                    <div class="chips"><span>ASP.NET Web Forms</span><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>Databases</h3>
+                    <div class="chips"><span>SQL</span><span>MySQL</span><span>SQL Server</span></div>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <div class="chips"><span>Git</span><span>GitHub</span></div>
+                </div>
+                <div class="skill-card skill-card-wide">
+                    <h3>Currently learning</h3>
+                    <div class="chips chips-learning"><span>Python</span><span>Software development lifecycles</span><span>Collaborative development</span><span>Enterprise systems</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section class="section container" id="projects">
+            <p class="eyebrow">Selected work</p>
+            <h2>Turning ideas into <span>digital solutions.</span></h2>
+
+            <article class="featured-project">
+                <div class="project-image">
+                    <img src="images/jobconnect-dashboard.png"
+                         alt="JobConnectSA job seeker dashboard interface"
+                         width="1200" height="760" loading="lazy">
+                    <div class="image-label">Application preview</div>
+                </div>
+
+                <div class="project-information">
+                    <p class="project-number">Featured project</p>
+                    <h3>JobConnectSA</h3>
+
+                    <p class="project-intro">
+                        A web-based job-seeking platform that helps users
+                        manage their job search in one place.
+                    </p>
+
+                    <p class="project-description">
+                        Built with ASP.NET Web Forms, C# and SQL Server as a
+                        practical development project.
+                    </p>
+
+                    <!--
+                    TODO: this is what recruiters want to read. Add 3-4 lines like:
+                    <ul class="project-points">
+                        <li><strong>Problem:</strong> ...</li>
+                        <li><strong>My role:</strong> ...</li>
+                        <li><strong>Features:</strong> ...</li>
+                    </ul>
+                    -->
+
+                    <div class="project-tags">
+                        <span>C#</span>
+                        <span>ASP.NET Web Forms</span>
+                        <span>SQL Server</span>
+                    </div>
+
+                    <div class="project-footer">
+                        <!-- TODO: replace with the repository link, e.g. https://github.com/PMncengwa/JobConnectSA -->
+                        <a href="https://github.com/PMncengwa" class="text-link" target="_blank" rel="noopener noreferrer">View code on GitHub ↗</a>
+                        <span class="project-status">Development project</span>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <!-- JOURNEY -->
+        <section class="section container" id="journey">
+            <p class="eyebrow">My journey</p>
+            <h2>Learning. Building. <span>Growing.</span></h2>
+
+            <div class="journey-item">
+                <h3>BCom Information Systems</h3>
+                <p>University of Fort Hare · Cum Laude</p>
+            </div>
+            <div class="journey-item">
+                <h3>Academic assistant and tutor</h3>
+                <p>University of Fort Hare · 2024–2026</p>
+            </div>
+            <div class="journey-item">
+                <h3>Technology training</h3>
+                <p>UCT–Cortex Hub Winter School · MICT SETA training</p>
+            </div>
+        </section>
+
+        <!-- LOCATION -->
+        <section class="section container" id="location">
+            <p class="eyebrow">Location</p>
+            <h2>Rooted in South Africa. <span>Open to the world.</span></h2>
+
+            <p class="section-description">
+                Based in South Africa and open to opportunities across the
+                country and internationally, including remote roles.
+            </p>
+
+            <div class="map-tabs" role="group" aria-label="Map view">
+                <button type="button" class="map-tab active" data-map="sa">South Africa</button>
+                <button type="button" class="map-tab" data-map="world">Global</button>
+            </div>
+
+            <div class="map-container">
+                <div id="portfolio-map" role="img" aria-label="Map showing South Africa"></div>
+            </div>
+            <p id="map-caption" class="map-caption">South Africa · Open to opportunities nationwide.</p>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section container" id="contact">
+            <p class="eyebrow">Get in touch</p>
+            <h2>Let's create something <span>meaningful.</span></h2>
+
+            <p class="section-description">
+                Hiring, or want to talk about an opportunity? I'd love to hear from you.
+            </p>
+
+            <div class="contact-links">
+               
+                <a href="mailto:your.philisiwemncengwa@gmail.com" class="primary-button">Email me</a>
+                <a href="cv/Philisiwe-Mncengwa-CV.pdf" download>Download CV</a>
+                <a href="https://www.linkedin.com/in/philisiwe-mncengwa/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+                <a href="https://github.com/PMncengwa" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2026 Philisiwe Mncengwa. Designed with purpose.</p>
+    </footer>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.16.0/mapbox-gl.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
